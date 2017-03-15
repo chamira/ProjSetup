@@ -17,10 +17,23 @@ extension UIColor {
 	convenience init(hex:Int) {
 		self.init(red:(hex >> 16) & 0xff, green:(hex >> 8) & 0xff, blue:hex & 0xff)
 	}
+	
 }
 
 extension UIColor {
 	static var theme: UIColor {
 		return UIColor(hex: 0x005BAA)
+	}
+	
+	static var random:UIColor {
+		
+		let base:UInt32 = 255
+		let fBase:Float = Float(base)
+		
+		let r = Float(arc4random_uniform(base) + 0) / fBase
+		let g = Float(arc4random_uniform(base) + 0) / fBase
+		let b = Float(arc4random_uniform(base) + 0) / fBase
+		
+		return UIColor(colorLiteralRed: r, green: g, blue: b, alpha: 1)
 	}
 }
