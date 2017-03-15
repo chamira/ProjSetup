@@ -40,6 +40,8 @@
 		530A156C1E78497D003CAF23 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530A15251E77F55D003CAF23 /* AppConstants.swift */; };
 		530A156D1E78497D003CAF23 /* AppStandardDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530A15241E77F55D003CAF23 /* AppStandardDefaults.swift */; };
 		530A156E1E784984003CAF23 /* String+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530A152A1E77F5A2003CAF23 /* String+Util.swift */; };
+		539E8E391E797D1F00CDBA41 /* UIViewControllerDismissGestureHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539E8E381E797D1F00CDBA41 /* UIViewControllerDismissGestureHandler.swift */; };
+		539E8E3A1E797D1F00CDBA41 /* UIViewControllerDismissGestureHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539E8E381E797D1F00CDBA41 /* UIViewControllerDismissGestureHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +92,7 @@
 		530A15561E78208D003CAF23 /* UIColor+App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+App.swift"; sourceTree = "<group>"; };
 		530A15591E7820FC003CAF23 /* UIFont+App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+App.swift"; sourceTree = "<group>"; };
 		530A15631E782C2C003CAF23 /* AppCacher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCacher.swift; sourceTree = "<group>"; };
+		539E8E381E797D1F00CDBA41 /* UIViewControllerDismissGestureHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerDismissGestureHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +187,7 @@
 				530A15421E77FE11003CAF23 /* AppNotificationCenter.swift */,
 				530A154C1E780679003CAF23 /* AppThirdPartyLibs.swift */,
 				530A153F1E77FD96003CAF23 /* AppViewController.swift */,
+				539E8E381E797D1F00CDBA41 /* UIViewControllerDismissGestureHandler.swift */,
 				530A15461E77FF72003CAF23 /* Extensions */,
 			);
 			name = _BasicSetup;
@@ -383,6 +387,7 @@
 				530A15271E77F55D003CAF23 /* AppStandardDefaults.swift in Sources */,
 				530A15281E77F55D003CAF23 /* AppConstants.swift in Sources */,
 				530A152D1E77F638003CAF23 /* AppErrorRegister.swift in Sources */,
+				539E8E391E797D1F00CDBA41 /* UIViewControllerDismissGestureHandler.swift in Sources */,
 				530A15431E77FE11003CAF23 /* AppNotificationCenter.swift in Sources */,
 				530A155A1E7820FC003CAF23 /* UIFont+App.swift in Sources */,
 			);
@@ -404,6 +409,7 @@
 				530A156E1E784984003CAF23 /* String+Util.swift in Sources */,
 				530A152E1E77F638003CAF23 /* AppErrorRegister.swift in Sources */,
 				530A15441E77FE11003CAF23 /* AppNotificationCenter.swift in Sources */,
+				539E8E3A1E797D1F00CDBA41 /* UIViewControllerDismissGestureHandler.swift in Sources */,
 				530A15581E78208D003CAF23 /* UIColor+App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -655,6 +661,7 @@
 				530A151C1E77F4D6003CAF23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		530A151D1E77F4D6003CAF23 /* Build configuration list for PBXNativeTarget "AppProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -663,6 +670,7 @@
 				530A151F1E77F4D6003CAF23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		530A15201E77F4D6003CAF23 /* Build configuration list for PBXNativeTarget "AppProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -671,6 +679,7 @@
 				530A15221E77F4D6003CAF23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
