@@ -3,7 +3,7 @@
 //  AppProject
 //
 //  Created by Chamira Fernando on 15/03/2017.
-//  Copyright © 2017 Making Waves. All rights reserved.
+//  Copyright © 2017 Chamira Fernando. All rights reserved.
 //
 
 
