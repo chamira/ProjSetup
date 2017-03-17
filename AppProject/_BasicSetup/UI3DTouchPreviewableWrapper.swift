@@ -211,7 +211,7 @@ final class UICollectionViewCell3DTouchHandler : NSObject, UIViewControllerPrevi
 }
 
 
-/// Every UITableViewCell must conform to UITableViewCell3DTouchPreviewable protocol to be able to make 3D touch previewable
+/// Every UIView must conform to UIView3DTouchPreviewable protocol to be able to make 3D touch previewable
 protocol UIView3DTouchPreviewable : class {
 	var previewableViewController:UIViewController { get }
 }
