@@ -44,6 +44,7 @@
 		539E8E401E7AB8C500CDBA41 /* UIViewControllerBasicTransitioningHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539E8E3D1E7AB8C500CDBA41 /* UIViewControllerBasicTransitioningHandler.swift */; };
 		539E8E411E7AB8C500CDBA41 /* EasyGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539E8E3E1E7AB8C500CDBA41 /* EasyGeometry.swift */; };
 		539E8E421E7AB8C500CDBA41 /* EasyGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539E8E3E1E7AB8C500CDBA41 /* EasyGeometry.swift */; };
+		53EE9D381E7C02E400E5977D /* UI3DTouchPreviewableWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EE9D371E7C02E400E5977D /* UI3DTouchPreviewableWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +97,7 @@
 		530A15631E782C2C003CAF23 /* AppCacher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCacher.swift; sourceTree = "<group>"; };
 		539E8E3D1E7AB8C500CDBA41 /* UIViewControllerBasicTransitioningHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerBasicTransitioningHandler.swift; sourceTree = "<group>"; };
 		539E8E3E1E7AB8C500CDBA41 /* EasyGeometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyGeometry.swift; sourceTree = "<group>"; };
+		53EE9D371E7C02E400E5977D /* UI3DTouchPreviewableWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UI3DTouchPreviewableWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +183,7 @@
 		530A15231E77F55D003CAF23 /* _BasicSetup */ = {
 			isa = PBXGroup;
 			children = (
+				53EE9D371E7C02E400E5977D /* UI3DTouchPreviewableWrapper.swift */,
 				530A154F1E780869003CAF23 /* AppNetworkReachability.swift */,
 				530A15261E77F55D003CAF23 /* AppErrorProtocol.swift */,
 				530A152C1E77F638003CAF23 /* AppErrorRegister.swift */,
@@ -382,6 +385,7 @@
 				539E8E3F1E7AB8C500CDBA41 /* UIViewControllerBasicTransitioningHandler.swift in Sources */,
 				530A152B1E77F5A2003CAF23 /* String+Util.swift in Sources */,
 				530A15291E77F55D003CAF23 /* AppErrorProtocol.swift in Sources */,
+				53EE9D381E7C02E400E5977D /* UI3DTouchPreviewableWrapper.swift in Sources */,
 				530A15501E780869003CAF23 /* AppNetworkReachability.swift in Sources */,
 				530A154D1E780679003CAF23 /* AppThirdPartyLibs.swift in Sources */,
 				530A15401E77FD96003CAF23 /* AppViewController.swift in Sources */,
