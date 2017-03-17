@@ -1,5 +1,5 @@
 //
-//  UITableViewCell3DTouchPreviewable.swift
+//  UI3DTouchPreviewableWrapper.swift
 //
 //  Created by Chamira Fernando on 16/03/2017.
 //  Copyright © 2017 Chamira Fernando. All rights reserved.
