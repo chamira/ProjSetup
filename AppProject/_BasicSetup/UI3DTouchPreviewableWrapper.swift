@@ -135,7 +135,12 @@ final class UITableViewCell3DTouchHandler : NSObject, UIViewControllerPreviewing
 		if (viewControllerToCommit.isBeingPresented){
 			return
 		}
-		self.viewController.show(viewControllerToCommit, sender: self)
+		
+		if viewControllerToCommit.modalPresentationStyle == UIModalPresentationStyle.fullScreen {
+			self.viewController.present(viewControllerToCommit, animated: false, completion: nil)
+		} else {
+			self.viewController.show(viewControllerToCommit, sender: self)
+		}
 	}
 	
 }
@@ -205,7 +210,12 @@ final class UICollectionViewCell3DTouchHandler : NSObject, UIViewControllerPrevi
 		if (viewControllerToCommit.isBeingPresented){
 			return
 		}
-		self.viewController.show(viewControllerToCommit, sender: self)
+		
+		if viewControllerToCommit.modalPresentationStyle == UIModalPresentationStyle.fullScreen {
+			self.viewController.present(viewControllerToCommit, animated: false, completion: nil)
+		} else {
+			self.viewController.show(viewControllerToCommit, sender: self)
+		}
 	}
 	
 }
