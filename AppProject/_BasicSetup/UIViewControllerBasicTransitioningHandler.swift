@@ -265,7 +265,7 @@ class UIViewControllerBasicTransitioningHandler : NSObject, UIViewControllerTran
 }
 
 
-//MARK: - Dismiss animator class
+//MARK: - Presenting animator class
 final class UIViewControllerPresentingAnimator : NSObject, UIViewControllerAnimatedTransitioning {
 	
 	fileprivate(set) var animationDuration:TimeInterval = 0.6
